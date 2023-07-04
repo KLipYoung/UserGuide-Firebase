@@ -36,14 +36,14 @@ $firebase = (new Factory)
 3. Here is the explain and how to get it in some word.
 - $serviceAccount
   - Path to your service account json file. Ex: 'c::/path/to/firebase-service-account.json'.
-  - ** How to get it. **
+  - **How to get it.**
     1. Go to the Firebase console website https://console.firebase.google.com
     2. Select your Firebase project from the project list (or create a new project if you haven't already).
     3. Click on the gear icon (settings) near the top left corner of the page and select "Project settings".
     4. In the project settings page, navigate to the "Service Accounts" tab.
     5. Under the "Firebase Admin SDK" section, click on the "Generate new private key" button.
 - $bucketPath
-  - ** How to get it. **
+  - **How to get it.**
     1. Go to the Firebase Console website
     2. Select your Firebase project from the project list (or create a new project if you haven't already).
     3. In the left sidebar, click on "Storage" to access Firebase Storage.
