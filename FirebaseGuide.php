@@ -1,5 +1,5 @@
 <?php
-namespace backend\models\firebase;
+namespace backend\models\firebase; 
 
 use backend\models\firebase\Firebase;
 
