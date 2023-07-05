@@ -2,11 +2,11 @@
 This repository provides a step by step guide on integrating Firebase storage and realtime database with Yii2 and PHP, allowing you to leverage Firebase services in your Yii2 applications. 
 
 ## Table of Contents
-[Step 1: Prerequisites](https://github.com/KLipYoung/test2/edit/main/README.md#step-1-prerequisites)  
-[Step 2: Installation](https://github.com/KLipYoung/test2/edit/main/README.md#step-2-installation)  
-[Step 3: Using Firebase services](https://github.com/KLipYoung/test2/edit/main/README.md#step-3-using-firebase-services)  
-[Usage: Storage](https://github.com/KLipYoung/test2/edit/main/README.md#usage-storage)  
-[Usage: Realtime Database](https://github.com/KLipYoung/test2/edit/main/README.md#usage-storage)  
+[Step 1: Prerequisites](https://github.com/KLipYoung/UserGuide-Firebase#step-1-prerequisites)  
+[Step 2: Installation](https://github.com/KLipYoung/UserGuide-Firebase#step-2-installation)  
+[Step 3: Using Firebase services](https://github.com/KLipYoung/UserGuide-Firebase#step-3-using-firebase-services)  
+[Usage: Storage](https://github.com/KLipYoung/UserGuide-Firebase#usage-storage)  
+[Usage: Realtime Database](https://github.com/KLipYoung/UserGuide-Firebase#usage-realtime-database)  
 
 ### Step 1: Prerequisites
 Before getting started, ensure that you have the following:
