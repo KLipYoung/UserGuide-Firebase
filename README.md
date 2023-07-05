@@ -1,5 +1,5 @@
-# User Guide: Using Firebase "Storage" with Yii2 && PHP method
-This repository provides a step by step guide on integrating Firebase storage with Yii2 and PHP, allowing you to leverage Firebase storage services in your Yii2 applications. 
+# User Guide: Using Firebase with Yii2 && PHP method
+This repository provides a step by step guide on integrating Firebase storage and realtime database with Yii2 and PHP, allowing you to leverage Firebase services in your Yii2 applications. 
 
 ## Table of Contents
 [Step 1: Prerequisites](https://github.com/KLipYoung/test2/edit/main/README.md#step-1-prerequisites)  
