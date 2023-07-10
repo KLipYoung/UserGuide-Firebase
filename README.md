@@ -137,6 +137,27 @@ $database = (new \Kreait\Firebase\Factory())
 var_dump($database);
 ```
 
+#### Modify specified data to Firebase "Realtime Database"
+```
+$data = 'Hello 2';
+
+(new \Kreait\Firebase\Factory())
+->withServiceAccount($serviceAccount)
+->withDatabaseUri($referencePath)->getReference('practice')
+->getChild('name') // modified key "name" from "Hello" to "Hello 2"
+->set($data);
+```
+
+#### Remove specified data to Firebase "Realtime Database"
+```
+(new \Kreait\Firebase\Factory())
+->withServiceAccount(Yii::getAlias('@webroot') .'/../.firebase/'. $firebaseModel['serviceAccount'])
+->withDatabaseUri($firebaseModel['path'])
+->createDatabase()->getReference('practice/user1')
+->getChild('name') // remove key "name"
+->remove();
+```
+
 ## Documentation  
 - [Firestore Guide](https://firebase-php.readthedocs.io/en/stable/cloud-storage.html)
 - [Realtime Guide](https://firebase-php.readthedocs.io/en/stable/realtime-database.html)
