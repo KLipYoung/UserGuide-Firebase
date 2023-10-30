@@ -1,5 +1,5 @@
 <?php
-namespace backend\models\firebase; 
+namespace backend\models\firebase;
 
 use backend\models\firebase\Firebase;
 
@@ -98,8 +98,8 @@ class FirebaseGuide
             ->createStorage()
             ->getBucket($firebaseModel['path'])
             ->upload(
-                fopen($image->tempName, 'r'), // your uploaded file path, "r" = read-only
-                ['name' => 'practice/abcdefg.png'] // upload to firebase file path and name and extension, if folder name not exist, will auto create folder
+                fopen($image->tempName, 'r'), // your image tempName, "r" = read-only
+                ['name' => 'Test/2023/abcdefg.png'] // upload to firebase file path and name and extension, if folder name not exist, will auto create folder
             );
         }
     }
