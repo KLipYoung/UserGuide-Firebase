@@ -26,6 +26,7 @@ composer require kreait/firebase-php
 composer require google/cloud-storage
 ```
 3. google/could-storage is using for upload file to firebase storage.
+4. If u found this error "Error: Class "GuzzleHttp\Psr7\HttpFactory" not found", can use "HttpFactory.php" paste in "yourProjectFolder/vendor/guzzlehttp/psr7/src/HttpFactory.php"
 
 ### Step 3: Using Firebase services
 1. To start using Firebase services, import the necessary Firebase classes in your PHP file:
